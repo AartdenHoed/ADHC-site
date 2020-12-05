@@ -1,0 +1,196 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial;
+    font-size:  16px;
+}
+h2, h3 {
+    font-weight: bold;
+}
+#wrapper {
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-color: lightblue;
+}
+.header {
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+    float: left;
+    margin: 0;
+    background-image: url(/Blueguitar.jpg);
+    background-size: cover;
+    z-index: 999;
+}
+.title {
+     text-align: center;
+     font-size: x-large;
+     font-weight: bold;
+     height: 10%;
+     width: 100%;
+     color: yellow;
+}
+.version {
+    color: white;
+    text-align: center;
+    vertical-align: central; 
+    
+}
+#adhcSprite { 
+    width: 90%;
+    height: 90%;
+    float: left;
+    margin: 2%;
+    padding: 0.5%;
+}
+.middle {
+    width: 100%;
+    height: 73%;
+    box-sizing: border-box;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#content {
+    background-image: url('/Col.jpg');
+    background-size: cover;
+    background-color: azure;
+    height: 100%;
+    z-index:  -1;
+    visibility: visible;
+}
+.footer {
+    width: 100%;
+    height: 3%;
+    box-sizing: border-box; 
+    float: left;  
+    margin: 0;
+    padding: 0; 
+    
+}
+.leftcol, .rightcol {
+    width: 15%;
+    height: 100%;
+    box-sizing: border-box;
+    float: left; 
+    margin: 0;
+    padding: 0; 
+} 
+.midcol {
+    width: 70%;
+    height: 100%;
+    box-sizing: border-box; 
+    float: left; 
+    margin: 0;
+    padding: 0;  
+}
+#content {
+    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow: 6px 6px 6px Black;
+    background-color: lightblue;
+    margin-top: 0.5%;
+    padding: 0;
+    overflow: auto;
+    z-index:  -1;
+}
+.controller {
+    margin: 1%;
+}
+.cline {
+    background-color: lightgrey;
+    text-align: center;
+    width: 100%;
+    height: 2%;
+    margin: 0;
+    padding: 0; 
+    bottom: 0;
+    position: fixed
+}
+.navigation {
+    width: 100%;
+    height: 90%;
+    box-sizing: border-box;  
+    margin: 0;
+    padding: 0;  
+}
+.menu {
+    display: block;
+    padding: 0.5%;
+    float: left;
+    width: 99%;
+    height: 70%;
+    border: solid 2px #000000;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px Black;
+    background-color: lightblue;
+}
+.menu2 {
+    display: none;
+    position:   relative;
+    top:  -10%;
+    padding: 0.5%;
+    width: 99%;
+    height: 300%;
+    border: solid 2px #000000;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px Black;
+    background-color: lightblue;
+    z-index: 999;
+}
+.menu>li {
+    display: block;
+    margin: 0.5%;
+    padding: 0.5%;
+
+    text-align: center;
+    width: 17.5%;
+    height: 80%;
+    float: left; 
+    list-style: none; 
+    border: solid 1px #000000;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 0px #000000 ;
+    background-color: blue;  
+    }
+.menu2>li {
+    display: block;
+    margin: 4%;
+    padding: 4%;
+    top: -2%;
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    list-style: none; 
+    border: solid 1px #000000;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 0px #000000 ;
+    background-color: blue; 
+    z-index: 999; 
+    }
+.menu>li>a {
+    color: white;
+    text-decoration: none;
+    font-weight:  bold; 
+    display: block;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+.menu2>li>a {
+    color: white;
+    text-decoration: none;
+    font-weight:  bold; 
+    display: block;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+.preload {
+    display: none;
+    background-image: url('/Button.png');
+}
