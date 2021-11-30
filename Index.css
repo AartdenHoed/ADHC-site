@@ -8,6 +8,10 @@
 h2, h3 {
     font-weight: bold;
 }
+.preload {
+    display: none;
+    background-image: url('Button.png');
+}
 #wrapper {
    width: 100%;
    height: 100%;
@@ -22,7 +26,7 @@ h2, h3 {
     box-sizing: border-box;
     float: left;
     margin: 0;
-    background-image: url(/Blueguitar.jpg);
+    background-image: url('Blueguitar.jpg');
     background-size: cover;
     z-index: 999;
 }
@@ -56,7 +60,7 @@ h2, h3 {
     padding: 0;
 }
 #content {
-    background-image: url('/Col.jpg');
+    background-image: url('Col.jpg');
     background-size: cover;
     background-color: azure;
     height: 100%;
@@ -135,7 +139,7 @@ h2, h3 {
     top:  -10%;
     padding: 0.5%;
     width: 99%;
-    height: 300%;
+    height: 500%;
     border: solid 2px #000000;
     border-radius: 12px;
     box-shadow: 4px 4px 4px Black;
@@ -148,7 +152,7 @@ h2, h3 {
     padding: 0.5%;
 
     text-align: center;
-    width: 17.5%;
+    width: 22%;
     height: 80%;
     float: left; 
     list-style: none; 
@@ -164,7 +168,7 @@ h2, h3 {
     top: -2%;
     text-align: center;
     width: 100%;
-    height: 30%;
+    height: 20%;
     list-style: none; 
     border: solid 1px #000000;
     border-radius: 8px;
@@ -189,8 +193,4 @@ h2, h3 {
     height: 100%;
     width: 100%;
     border: none;
-}
-.preload {
-    display: none;
-    background-image: url('/Button.png');
 }

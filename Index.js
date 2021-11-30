@@ -5,7 +5,7 @@ $(document).ready(function (event) { initPage("ready") });
 
 function initPage(how) {
     // alert(how);
-    $(".menu>li>a").on("click", function () {lightButton(this)});
+    // $(".menu>li>a").on("click", function () {lightButton(this)});
     $(".menu>li>a").mouseenter(function() {enterButton(this,1)});
     $(".menu>li>a").mouseleave(function() {leaveButton(this,1)});
     $(".menu2>li>a").on("click", function () {lightButton(this)});
@@ -56,7 +56,7 @@ function lightButton(e) {
     e.parentElement.style.backgroundSize = "cover";
     e.parentElement.style.backgroundRepeat = "no-repeat";
     e.parentElement.style.backgroundPosition = "center";
-    e.parentElement.style.backgroundImage = "url('/Button.png')";
+    e.parentElement.style.backgroundImage = "url('Button.png')";
     //e.parentElement.style.background = "Yellow url('/LightButton.png') no-repeat center cover";
     
     setTimeout(function () { var x = 1; }, 1500);
