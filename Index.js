@@ -1,4 +1,4 @@
-﻿
+﻿ 
 
 $(window).on("orientationchange", function (event) { initPage("orient") });
 $(document).ready(function (event) { initPage("ready") });
